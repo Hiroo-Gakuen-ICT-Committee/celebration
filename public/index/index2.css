@@ -1,0 +1,33 @@
+@media (max-width: 479px) {
+  body .img1 {
+    width: 80vw;
+  }
+  body .img2 {
+    width: 70vw;
+  }
+  body .img3 {
+    display: none;
+  }
+  body .img4 {
+    display: inline;
+    width: 90vw;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: calc(50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .texts {
+    width: 20.5vw;
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    right: 0vw;
+    text-align: center;
+  }
+}

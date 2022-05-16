@@ -2,4 +2,94 @@ body {
   font-family: fot-tsukubrdgothic-std, sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-size: 100%;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/public/index/images/back2.svg");
+  background-size: 100%;
+}
+
+body .back1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+body .back1 .back1_svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body .img1 {
+  width: 30vw;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+body .img2 {
+  width: 40vw;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+}
+
+body .img3 {
+  width: 70vw;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+body .img4 {
+  display: none;
+}
+
+body .texts {
+  width: 20.5vw;
+  position: absolute;
+  z-index: 6;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  right: 15vw;
+  text-align: center;
+}
+
+body .texts .text1 {
+  font-size: 1.5vw;
+  z-index: 6;
+}
+
+body .texts .text2 {
+  width: 15vw;
+  font-size: 1vw;
+  z-index: 6;
+  margin-left: auto;
+  margin-top: 4vh;
+  margin-right: auto;
+  text-align: left;
+}
+
+body .texts .text2 a {
+  text-decoration: none;
+  width: 15vw;
+}
+
+body .img4 {
+  display: none;
 }
